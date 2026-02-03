@@ -50,7 +50,7 @@ if menu == "Researcher Profile":
     
     st.image(
     ImageOps.exif_transpose(
-        Image.open("C:\Users\khumb\OneDrive\Documents\New folder\Summer coding school\streamlit.app")
+        Image.open(r"C:\Users\khumb\OneDrive\Documents\New folder\Summer coding school\streamlit.app")
     ),
     caption="K.Muthaledi"
 )
@@ -188,3 +188,4 @@ elif menu == "Contact":
     email = "khumbelomuthaledi@gmail.com"
 
     st.write(f"You can reach me at {email}.")
+
